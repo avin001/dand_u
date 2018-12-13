@@ -11911,7 +11911,7 @@ Consider the animals DataFrame, which has headers for name, body weight (in kilo
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Files-on-hand">Files on hand<a class="anchor-link" href="#Files-on-hand">&#182;</a></h4><p>So the inspiration for our little project here, was this Rotten Tomatoes top 100 movies of all time list. How do we get it? Rotten Tomatoes doesn't give us a file to download unfortunately. For this lesson, I'm just going to give it to you. Gathering can be complicated, but it can also be extremely easy. Sometimes you are simply just given a file. I've pre-gathered this dataset with its four columns; rank, title, rating, and number of reviews, and it's 101 rows, one for the headers and one for each of the top 100 movies. I put the data in a flat file called a TSB file which stands for tab separated values. Picture this as me e-mailing this file to you, or giving it to you on a thumb drive, or you accessing the file from your company's file storage system. We don't need to do it programmatically in this case, because we'll assume that this data is internal, and can't be downloaded from the Internet.</p>
+<h4 id="Files-on-hand">Files on hand<a class="anchor-link" href="#Files-on-hand">&#182;</a></h4><p>So the inspiration for our little project here, was this Rotten Tomatoes top 100 movies of all time list. How do we get it? Rotten Tomatoes doesn't give us a file to download unfortunately. For this lesson, I'm just going to give it to you. Gathering can be complicated, but it can also be extremely easy. Sometimes you are simply just given a file. I've pre-gathered this dataset with its four columns; rank, title, rating, and number of reviews, and it's 101 rows, one for the headers and one for each of the top 100 movies. I put the data in a flat file called a TSV file which stands for tab separated values. Picture this as me e-mailing this file to you, or giving it to you on a thumb drive, or you accessing the file from your company's file storage system. We don't need to do it programmatically in this case, because we'll assume that this data is internal, and can't be downloaded from the Internet.</p>
 <p>Flat files contain tabular data in plain text format with one data record per line and each record or line having one or more fields. These fields are separated by delimiters, like commas, tabs, or colons.</p>
 <p><strong>Advantages of flat files</strong> include:</p>
 <ul>
@@ -12604,7 +12604,7 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ebert_review_urls</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;https://d17h27t6h515a5.cloudfront.net/topher/2017/September/59ad9900_1-the-wizard-of-oz-1939-film/1-the-wizard-of-oz-1939-film.txt&#39;</span><span class="p">,</span>
@@ -12704,7 +12704,7 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Your code here</span>
@@ -12723,7 +12723,7 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check contents of the folder</span>
@@ -12731,26 +12731,6 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[9]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>88</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -12775,7 +12755,7 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">glob</span>
@@ -12788,7 +12768,7 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># List of dictionaries to build file by file and later convert to a DataFrame</span>
@@ -12814,425 +12794,13 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[12]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>title</th>
-      <th>review_url</th>
-      <th>review_text</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Dunkirk (2017)</td>
-      <td>http://www.rogerebert.com/reviews/dunkirk-2017</td>
-      <td>Lean and ambitious, unsentimental and bombasti...</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Army of Shadows (L'Armée des ombres) (1969)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Jean-Pierre Melville's "Army of Shadows" is ab...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Alien (1979)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>At its most fundamental level, "Alien" is a mo...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>The Bride of Frankenstein (1935)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>To a new world of gods and monsters.\n\nSo int...</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>The 400 Blows (Les Quatre cents coups) (1959)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>I demand that a film express either the joy of...</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Manchester by the Sea (2016)</td>
-      <td>http://www.rogerebert.com/reviews/manchester-b...</td>
-      <td>"Manchester by the Sea," about a self-punishin...</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Mad Max: Fury Road (2015)</td>
-      <td>http://www.rogerebert.com/reviews/mad-max-fury...</td>
-      <td>George Miller’s “Mad Max” films didn’t just ma...</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Wonder Woman (2017)</td>
-      <td>http://www.rogerebert.com/reviews/wonder-woman...</td>
-      <td>Ever since William Moulton Marston created her...</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Bicycle Thieves (Ladri di biciclette) (1949)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>"The Bicycle Thief" is so well-entrenched as a...</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Laura (1944)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>I've seen Otto Preminger's “Laura” three or fo...</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Toy Story (1995)</td>
-      <td>http://www.rogerebert.com/reviews/toy-story-1995</td>
-      <td>"Toy Story" creates a universe out of a couple...</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>On the Waterfront (1954)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Conscience. That stuff can drive you nuts.\n\n...</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>Toy Story 3 (2010)</td>
-      <td>http://www.rogerebert.com/reviews/toy-story-3-...</td>
-      <td>The first two "Toy Story" movies centered on t...</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Tokyo Story (Tôkyô monogatari) (1953)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>No story could be simpler. An old couple come ...</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>La Grande illusion (Grand Illusion) (1938)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Apart from its other achievements, Jean Renoir...</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>The Last Picture Show (1971)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>The best scene in "The Last Picture Show" take...</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>Rear Window (1954)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>The hero of Alfred Hitchcock's "Rear Window" i...</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>Gone With the Wind (1939)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>"Gone With the Wind” presents a sentimental vi...</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>A Streetcar Named Desire (1951)</td>
-      <td>http://www.rogerebert.com/reviews/a-streetcar-...</td>
-      <td>Marlon Brando didn't win the Academy Award in ...</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>Pinocchio (1940)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>When the Russian director Sergei Eisenstein sa...</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>King Kong (1933)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>On good days I consider "Citizen Kane" the sem...</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>Arrival (2016)</td>
-      <td>http://www.rogerebert.com/reviews/arrival-2016</td>
-      <td>Much has been written about the recent surge o...</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>Dr. Strangelove Or How I Learned to Stop Worry...</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Every time you see a great film, you find new ...</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>Argo (2012)</td>
-      <td>http://www.rogerebert.com/reviews/argo-2012</td>
-      <td>It's the same the world over. A Hollywood prod...</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>A Hard Day's Night (1964)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>When it opened in September, 1964, "A Hard Day...</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>Selma (2015)</td>
-      <td>http://www.rogerebert.com/reviews/selma-2014</td>
-      <td>In a perfect world, “Selma” would exist solely...</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>Hell or High Water (2016)</td>
-      <td>http://www.rogerebert.com/reviews/hell-or-high...</td>
-      <td>After a summer filled with retreads, ripoffs a...</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>Gravity (2013)</td>
-      <td>http://www.rogerebert.com/reviews/gravity-2013</td>
-      <td>Alfonso Cuarón's "Gravity," about astronauts c...</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>Logan (2017)</td>
-      <td>http://www.rogerebert.com/reviews/logan-2017</td>
-      <td>Is “Logan” more powerful because of what the s...</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>Metropolis (1927)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>The opening shots of the restored “Metropolis”...</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>12 Years a Slave (2013)</td>
-      <td>http://www.rogerebert.com/reviews/12-years-a-s...</td>
-      <td>After "Django Unchained" and Lee Daniels' "The...</td>
-    </tr>
-    <tr>
-      <th>59</th>
-      <td>The Jungle Book (2016)</td>
-      <td>http://www.rogerebert.com/reviews/the-jungle-b...</td>
-      <td>I saw the newest Disney version of "The Jungle...</td>
-    </tr>
-    <tr>
-      <th>60</th>
-      <td>Finding Nemo (2003)</td>
-      <td>http://www.rogerebert.com/reviews/finding-nemo...</td>
-      <td>"Finding Nemo" has all of the usual pleasures ...</td>
-    </tr>
-    <tr>
-      <th>61</th>
-      <td>Inside Out (2015)</td>
-      <td>http://www.rogerebert.com/reviews/inside-out-2015</td>
-      <td>"Inside Out," a comedy-adventure set inside th...</td>
-    </tr>
-    <tr>
-      <th>62</th>
-      <td>Harry Potter and the Deathly Hallows - Part 2 ...</td>
-      <td>http://www.rogerebert.com/reviews/harry-potter...</td>
-      <td>After seven earlier films reaching back a deca...</td>
-    </tr>
-    <tr>
-      <th>63</th>
-      <td>The Treasure of the Sierra Madre (1948)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>When John Huston came back from the war and Hu...</td>
-    </tr>
-    <tr>
-      <th>64</th>
-      <td>Sunset Boulevard (1950)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Billy Wilder's "Sunset Boulevard” is the portr...</td>
-    </tr>
-    <tr>
-      <th>65</th>
-      <td>The Godfather, Part II (1974)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>The musical score plays an even greater role i...</td>
-    </tr>
-    <tr>
-      <th>66</th>
-      <td>All About Eve (1950)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Growing older was a smart career move for Bett...</td>
-    </tr>
-    <tr>
-      <th>67</th>
-      <td>The Night of the Hunter (1955)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Charles Laughton's "The Night of the Hunter” (...</td>
-    </tr>
-    <tr>
-      <th>68</th>
-      <td>Vertigo (1958)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>“Did he train you? Did he rehearse you? Did he...</td>
-    </tr>
-    <tr>
-      <th>69</th>
-      <td>Taxi Driver (1976)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Are you talkin' to me? Well, I'm the only one ...</td>
-    </tr>
-    <tr>
-      <th>70</th>
-      <td>The Wages of Fear (1953)</td>
-      <td>http://www.rogerebert.com/reviews/the-wages-of...</td>
-      <td>When the great French thriller "The Wages of F...</td>
-    </tr>
-    <tr>
-      <th>71</th>
-      <td>Spotlight (2015)</td>
-      <td>http://www.rogerebert.com/reviews/spotlight-2015</td>
-      <td>On January 6, 2002, Boston Globe subscribers p...</td>
-    </tr>
-    <tr>
-      <th>72</th>
-      <td>The Battle of Algiers (La Battaglia di Algeri)...</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>The most common form of warfare since 1945 has...</td>
-    </tr>
-    <tr>
-      <th>73</th>
-      <td>La La Land (2016)</td>
-      <td>http://www.rogerebert.com/reviews/la-la-land-2016</td>
-      <td>Musicals made me a romantic. They taught me th...</td>
-    </tr>
-    <tr>
-      <th>74</th>
-      <td>Citizen Kane (1941)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>“I don't think any word can explain a man's li...</td>
-    </tr>
-    <tr>
-      <th>75</th>
-      <td>Seven Samurai (Shichinin no Samurai) (1956)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Akira Kurosawa's "Seven Samurai" (1954) is not...</td>
-    </tr>
-    <tr>
-      <th>76</th>
-      <td>Brooklyn (2015)</td>
-      <td>http://www.rogerebert.com/reviews/brooklyn-2015</td>
-      <td>Colm Tóibín’s 2009 novel “Brooklyn” is one of ...</td>
-    </tr>
-    <tr>
-      <th>77</th>
-      <td>Psycho (1960)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>"It wasn't a message that stirred the audience...</td>
-    </tr>
-    <tr>
-      <th>78</th>
-      <td>Boyhood (2014)</td>
-      <td>http://www.rogerebert.com/reviews/boyhood-2014</td>
-      <td>The second shot of "Boyhood" doubles as the mo...</td>
-    </tr>
-    <tr>
-      <th>79</th>
-      <td>The Good, the Bad and the Ugly (1966)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>A vast empty Western landscape. The camera pan...</td>
-    </tr>
-    <tr>
-      <th>80</th>
-      <td>The Dark Knight (2008)</td>
-      <td>http://www.rogerebert.com/reviews/the-dark-kni...</td>
-      <td>“Batman” isn’t a comic book anymore. Christoph...</td>
-    </tr>
-    <tr>
-      <th>81</th>
-      <td>Touch of Evil (1958)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>Come on, read my future for me.You haven't got...</td>
-    </tr>
-    <tr>
-      <th>82</th>
-      <td>Baby Driver (2017)</td>
-      <td>http://www.rogerebert.com/reviews/baby-driver-...</td>
-      <td>Baby is a young man who creates remixes of his...</td>
-    </tr>
-    <tr>
-      <th>83</th>
-      <td>Man on Wire (2008)</td>
-      <td>http://www.rogerebert.com/reviews/man-on-wire-...</td>
-      <td>I am afraid of heights. Now you know. That is ...</td>
-    </tr>
-    <tr>
-      <th>84</th>
-      <td>Toy Story 2 (1999)</td>
-      <td>http://www.rogerebert.com/reviews/toy-story-2-...</td>
-      <td>I forgot something about toys a long time ago,...</td>
-    </tr>
-    <tr>
-      <th>85</th>
-      <td>Nosferatu, a Symphony of Horror (Nosferatu, ei...</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>To watch F.W. Murnau's "Nosferatu" (1922) is t...</td>
-    </tr>
-    <tr>
-      <th>86</th>
-      <td>Singin' in the Rain (1952)</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>There is no movie musical more fun than "Singi...</td>
-    </tr>
-    <tr>
-      <th>87</th>
-      <td>The Cabinet of Dr. Caligari (Das Cabinet des D...</td>
-      <td>http://www.rogerebert.com/reviews/great-movie-...</td>
-      <td>The first thing everyone notices and best reme...</td>
-    </tr>
-  </tbody>
-</table>
-<p>88 rows × 3 columns</p>
-</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13299,7 +12867,7 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">wptools</span>
@@ -13312,7 +12880,7 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Your code here: get the E.T. page object</span>
@@ -13324,71 +12892,10 @@ HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like C
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>en.wikipedia.org (query) E.T._the_Extra-Terrestrial
-en.wikipedia.org (parse) 73441
-www.wikidata.org (wikidata) Q11621
-www.wikidata.org (labels) Q229009|Q1757366|P915|Q2143665|Q65|P494...
-www.wikidata.org (labels) P161|P2704|Q139184|P214|Q471839|Q8555|P...
-www.wikidata.org (labels) P3203|P3135|Q8877|Q3897561|Q103360|P921...
-www.wikidata.org (labels) Q499789|Q488645|P2061|Q1748409|P1237|P2...
-en.wikipedia.org (restbase) /page/summary/E.T._the_Extra-Terrestrial
-en.wikipedia.org (imageinfo) File:ET logo 3.svg|File:E t the extr...
-E.T. the Extra-Terrestrial (en) data
-{
-  WARNINGS: &lt;dict(1)&gt; extracts
-  aliases: &lt;list(2)&gt; E.T., ET
-  assessments: &lt;dict(4)&gt; United States, Film, Science Fiction, Lib...
-  claims: &lt;dict(90)&gt; P1562, P57, P272, P345, P31, P161, P373, P480...
-  description: &lt;str(63)&gt; 1982 American science fiction film direct...
-  exhtml: &lt;str(569)&gt; &lt;p&gt;&lt;i&gt;&lt;b&gt;E.T. the Extra-Terrestrial&lt;/b&gt;&lt;/i&gt; i...
-  exrest: &lt;str(548)&gt; E.T. the Extra-Terrestrial is a 1982 American...
-  extext: &lt;str(1784)&gt; _**E.T. the Extra-Terrestrial**_ is a 1982 A...
-  extract: &lt;str(1901)&gt; &lt;p class=&#34;mw-empty-elt&#34;&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;b&gt;E.T. t...
-  image: &lt;list(4)&gt; {&#39;kind&#39;: &#39;parse-image&#39;, &#39;file&#39;: &#39;File:E t the e...
-  infobox: &lt;dict(18)&gt; name, image, caption, director, producers, w...
-  iwlinks: &lt;list(5)&gt; https://commons.wikimedia.org/wiki/Category:E...
-  label: E.T. the Extra-Terrestrial
-  labels: &lt;dict(169)&gt; Q229009, Q1757366, P915, Q2143665, Q65, P494...
-  length: 79,934
-  links: &lt;list(432)&gt; 12 Monkeys, 12 Years a Slave (film), 1941 (fi...
-  modified: &lt;dict(2)&gt; page, wikidata
-  pageid: 73441
-  parsetree: &lt;str(99804)&gt; &lt;root&gt;&lt;template&gt;&lt;title&gt;Redirect&lt;/title&gt;&lt;...
-  random: Hamad bin Khalifa Al Thani
-  redirects: &lt;list(38)&gt; {&#39;pageid&#39;: 177061, &#39;ns&#39;: 0, &#39;title&#39;: &#39;E.T....
-  requests: &lt;list(9)&gt; query, parse, wikidata, labels, labels, labe...
-  title: E.T._the_Extra-Terrestrial
-  url: https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial
-  url_raw: &lt;str(67)&gt; https://en.wikipedia.org/wiki/E.T._the_Extra-...
-  watchers: 282
-  what: film
-  wikibase: Q11621
-  wikidata: &lt;dict(90)&gt; AllMovie movie ID (P1562), director (P57), ...
-  wikidata_pageid: 13150
-  wikidata_url: https://www.wikidata.org/wiki/Q11621
-  wikitext: &lt;str(79634)&gt; {{Redirect|E.T.|other uses|ET (disambigua...
-}
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Accessing the image attribute will return the images for this page</span>
@@ -13396,113 +12903,6 @@ E.T. the Extra-Terrestrial (en) data
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[15]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[{&#39;descriptionshorturl&#39;: &#39;https://en.wikipedia.org/w/index.php?curid=7419503&#39;,
-  &#39;descriptionurl&#39;: &#39;https://en.wikipedia.org/wiki/File:E_t_the_extra_terrestrial_ver3.jpg&#39;,
-  &#39;file&#39;: &#39;File:E t the extra terrestrial ver3.jpg&#39;,
-  &#39;height&#39;: 394,
-  &#39;kind&#39;: &#39;parse-image&#39;,
-  &#39;metadata&#39;: {&#39;Assessments&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;commons-categories&#39;,
-    &#39;value&#39;: &#39;&#39;},
-   &#39;Categories&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;commons-categories&#39;,
-    &#39;value&#39;: &#39;All non-free media|E.T. the Extra-Terrestrial|Fair use images of movie posters|Files with no machine-readable author|Files with no machine-readable description|Files with no machine-readable license|Files with no machine-readable source|Noindexed pages|Non-free images for NFUR review|Non-free posters&#39;},
-   &#39;CommonsMetadataExtension&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;extension&#39;,
-    &#39;value&#39;: 1.2},
-   &#39;DateTime&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;mediawiki-metadata&#39;,
-    &#39;value&#39;: &#39;2016-06-04 10:30:46&#39;},
-   &#39;NonFree&#39;: {&#39;hidden&#39;: &#39;&#39;, &#39;source&#39;: &#39;commons-desc-page&#39;, &#39;value&#39;: &#39;true&#39;},
-   &#39;ObjectName&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;mediawiki-metadata&#39;,
-    &#39;value&#39;: &#39;E t the extra terrestrial ver3&#39;},
-   &#39;Restrictions&#39;: {&#39;hidden&#39;: &#39;&#39;, &#39;source&#39;: &#39;commons-desc-page&#39;, &#39;value&#39;: &#39;&#39;}},
-  &#39;orig&#39;: &#39;E t the extra terrestrial ver3.jpg&#39;,
-  &#39;size&#39;: 83073,
-  &#39;timestamp&#39;: &#39;2016-06-04T10:30:46Z&#39;,
-  &#39;title&#39;: &#39;File:E t the extra terrestrial ver3.jpg&#39;,
-  &#39;url&#39;: &#39;https://upload.wikimedia.org/wikipedia/en/6/66/E_t_the_extra_terrestrial_ver3.jpg&#39;,
-  &#39;width&#39;: 253},
- {&#39;descriptionshorturl&#39;: &#39;https://commons.wikimedia.org/w/index.php?curid=14138952&#39;,
-  &#39;descriptionurl&#39;: &#39;https://commons.wikimedia.org/wiki/File:ET_logo_3.svg&#39;,
-  &#39;file&#39;: &#39;File:ET logo 3.svg&#39;,
-  &#39;height&#39;: 380,
-  &#39;kind&#39;: &#39;wikidata-image&#39;,
-  &#39;metadata&#39;: {&#39;Artist&#39;: {&#39;source&#39;: &#39;commons-desc-page&#39;,
-    &#39;value&#39;: &#39;&lt;a href=&#34;https://en.wikipedia.org/wiki/en:User:TheCuriousGnome&#34; class=&#34;extiw&#34; title=&#34;w:en:User:TheCuriousGnome&#34;&gt;User:TheCuriousGnome&lt;/a&gt;&#39;},
-   &#39;Assessments&#39;: {&#39;hidden&#39;: &#39;&#39;, &#39;source&#39;: &#39;commons-categories&#39;, &#39;value&#39;: &#39;&#39;},
-   &#39;AttributionRequired&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;commons-desc-page&#39;,
-    &#39;value&#39;: &#39;false&#39;},
-   &#39;Categories&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;commons-categories&#39;,
-    &#39;value&#39;: &#39;E.T. the Extra-Terrestrial|PD ineligible|With trademark&#39;},
-   &#39;CommonsMetadataExtension&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;extension&#39;,
-    &#39;value&#39;: 1.2},
-   &#39;Copyrighted&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;commons-desc-page&#39;,
-    &#39;value&#39;: &#39;False&#39;},
-   &#39;Credit&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;commons-desc-page&#39;,
-    &#39;value&#39;: &#39;Transferred from &lt;a class=&#34;external text&#34; href=&#34;http://en.wikipedia.org&#34;&gt;en.wikipedia&lt;/a&gt;&#39;},
-   &#39;DateTime&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;mediawiki-metadata&#39;,
-    &#39;value&#39;: &#39;2011-05-14 20:38:17&#39;},
-   &#39;DateTimeOriginal&#39;: {&#39;source&#39;: &#39;commons-desc-page&#39;, &#39;value&#39;: &#39;2011-02-28&#39;},
-   &#39;ImageDescription&#39;: {&#39;source&#39;: &#39;commons-desc-page&#39;,
-    &#39;value&#39;: &#39;Opening logo to the &lt;a href=&#34;https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial&#34; class=&#34;extiw&#34; title=&#34;en:E.T. the Extra-Terrestrial&#34;&gt;en:E.T. the Extra-Terrestrial&lt;/a&gt; film&#39;},
-   &#39;License&#39;: {&#39;hidden&#39;: &#39;&#39;, &#39;source&#39;: &#39;commons-templates&#39;, &#39;value&#39;: &#39;pd&#39;},
-   &#39;LicenseShortName&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;commons-desc-page&#39;,
-    &#39;value&#39;: &#39;Public domain&#39;},
-   &#39;ObjectName&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;mediawiki-metadata&#39;,
-    &#39;value&#39;: &#39;ET logo 3&#39;},
-   &#39;Restrictions&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;commons-desc-page&#39;,
-    &#39;value&#39;: &#39;trademarked&#39;},
-   &#39;UsageTerms&#39;: {&#39;hidden&#39;: &#39;&#39;,
-    &#39;source&#39;: &#39;commons-desc-page&#39;,
-    &#39;value&#39;: &#39;Public domain&#39;}},
-  &#39;orig&#39;: &#39;ET logo 3.svg&#39;,
-  &#39;size&#39;: 77290,
-  &#39;timestamp&#39;: &#39;2011-05-14T20:38:17Z&#39;,
-  &#39;title&#39;: &#39;File:ET logo 3.svg&#39;,
-  &#39;url&#39;: &#39;https://upload.wikimedia.org/wikipedia/commons/8/85/ET_logo_3.svg&#39;,
-  &#39;width&#39;: 512},
- {&#39;file&#39;: &#39;File:E t the extra terrestrial ver3.jpg&#39;,
-  &#39;height&#39;: 394,
-  &#39;kind&#39;: &#39;restbase-original&#39;,
-  &#39;orig&#39;: &#39;E_t_the_extra_terrestrial_ver3.jpg&#39;,
-  &#39;url&#39;: &#39;https://upload.wikimedia.org/wikipedia/en/6/66/E_t_the_extra_terrestrial_ver3.jpg&#39;,
-  &#39;width&#39;: 253},
- {&#39;file&#39;: &#39;File:205px-E t the extra terrestrial ver3.jpg&#39;,
-  &#39;height&#39;: 320,
-  &#39;kind&#39;: &#39;restbase-thumb&#39;,
-  &#39;orig&#39;: &#39;205px-E_t_the_extra_terrestrial_ver3.jpg&#39;,
-  &#39;url&#39;: &#39;https://upload.wikimedia.org/wikipedia/en/thumb/6/66/E_t_the_extra_terrestrial_ver3.jpg/205px-E_t_the_extra_terrestrial_ver3.jpg&#39;,
-  &#39;width&#39;: 205}]</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13533,7 +12933,7 @@ E.T. the Extra-Terrestrial (en) data
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">page</span> <span class="o">=</span> <span class="n">wptools</span><span class="o">.</span><span class="n">page</span><span class="p">(</span><span class="s1">&#39;E.T._the_Extra-Terrestrial&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
@@ -13543,71 +12943,10 @@ E.T. the Extra-Terrestrial (en) data
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>en.wikipedia.org (query) E.T._the_Extra-Terrestrial
-en.wikipedia.org (parse) 73441
-www.wikidata.org (wikidata) Q11621
-www.wikidata.org (labels) Q229009|Q1757366|P915|Q2143665|Q65|P494...
-www.wikidata.org (labels) P161|P2704|Q139184|P214|Q471839|Q8555|P...
-www.wikidata.org (labels) P3203|P3135|Q8877|Q3897561|Q103360|P921...
-www.wikidata.org (labels) Q499789|Q488645|P2061|Q1748409|P1237|P2...
-en.wikipedia.org (restbase) /page/summary/E.T._the_Extra-Terrestrial
-en.wikipedia.org (imageinfo) File:ET logo 3.svg|File:E t the extr...
-E.T. the Extra-Terrestrial (en) data
-{
-  WARNINGS: &lt;dict(1)&gt; extracts
-  aliases: &lt;list(2)&gt; E.T., ET
-  assessments: &lt;dict(4)&gt; United States, Film, Science Fiction, Lib...
-  claims: &lt;dict(90)&gt; P1562, P57, P272, P345, P31, P161, P373, P480...
-  description: &lt;str(63)&gt; 1982 American science fiction film direct...
-  exhtml: &lt;str(569)&gt; &lt;p&gt;&lt;i&gt;&lt;b&gt;E.T. the Extra-Terrestrial&lt;/b&gt;&lt;/i&gt; i...
-  exrest: &lt;str(548)&gt; E.T. the Extra-Terrestrial is a 1982 American...
-  extext: &lt;str(1784)&gt; _**E.T. the Extra-Terrestrial**_ is a 1982 A...
-  extract: &lt;str(1901)&gt; &lt;p class=&#34;mw-empty-elt&#34;&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;&lt;b&gt;E.T. t...
-  image: &lt;list(4)&gt; {&#39;kind&#39;: &#39;parse-image&#39;, &#39;file&#39;: &#39;File:E t the e...
-  infobox: &lt;dict(18)&gt; name, image, caption, director, producers, w...
-  iwlinks: &lt;list(5)&gt; https://commons.wikimedia.org/wiki/Category:E...
-  label: E.T. the Extra-Terrestrial
-  labels: &lt;dict(169)&gt; Q229009, Q1757366, P915, Q2143665, Q65, P494...
-  length: 79,934
-  links: &lt;list(432)&gt; 12 Monkeys, 12 Years a Slave (film), 1941 (fi...
-  modified: &lt;dict(2)&gt; page, wikidata
-  pageid: 73441
-  parsetree: &lt;str(99804)&gt; &lt;root&gt;&lt;template&gt;&lt;title&gt;Redirect&lt;/title&gt;&lt;...
-  random: Sarah Saltzberg
-  redirects: &lt;list(38)&gt; {&#39;pageid&#39;: 177061, &#39;ns&#39;: 0, &#39;title&#39;: &#39;E.T....
-  requests: &lt;list(9)&gt; query, parse, wikidata, labels, labels, labe...
-  title: E.T._the_Extra-Terrestrial
-  url: https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial
-  url_raw: &lt;str(67)&gt; https://en.wikipedia.org/wiki/E.T._the_Extra-...
-  watchers: 282
-  what: film
-  wikibase: Q11621
-  wikidata: &lt;dict(90)&gt; AllMovie movie ID (P1562), director (P57), ...
-  wikidata_pageid: 13150
-  wikidata_url: https://www.wikidata.org/wiki/Q11621
-  wikitext: &lt;str(79634)&gt; {{Redirect|E.T.|other uses|ET (disambigua...
-}
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Access the first image in the images attribute, which is a JSON array.</span>
@@ -13618,57 +12957,10 @@ E.T. the Extra-Terrestrial (en) data
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[17]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>{&#39;descriptionshorturl&#39;: &#39;https://en.wikipedia.org/w/index.php?curid=7419503&#39;,
- &#39;descriptionurl&#39;: &#39;https://en.wikipedia.org/wiki/File:E_t_the_extra_terrestrial_ver3.jpg&#39;,
- &#39;file&#39;: &#39;File:E t the extra terrestrial ver3.jpg&#39;,
- &#39;height&#39;: 394,
- &#39;kind&#39;: &#39;parse-image&#39;,
- &#39;metadata&#39;: {&#39;Assessments&#39;: {&#39;hidden&#39;: &#39;&#39;,
-   &#39;source&#39;: &#39;commons-categories&#39;,
-   &#39;value&#39;: &#39;&#39;},
-  &#39;Categories&#39;: {&#39;hidden&#39;: &#39;&#39;,
-   &#39;source&#39;: &#39;commons-categories&#39;,
-   &#39;value&#39;: &#39;All non-free media|E.T. the Extra-Terrestrial|Fair use images of movie posters|Files with no machine-readable author|Files with no machine-readable description|Files with no machine-readable license|Files with no machine-readable source|Noindexed pages|Non-free images for NFUR review|Non-free posters&#39;},
-  &#39;CommonsMetadataExtension&#39;: {&#39;hidden&#39;: &#39;&#39;,
-   &#39;source&#39;: &#39;extension&#39;,
-   &#39;value&#39;: 1.2},
-  &#39;DateTime&#39;: {&#39;hidden&#39;: &#39;&#39;,
-   &#39;source&#39;: &#39;mediawiki-metadata&#39;,
-   &#39;value&#39;: &#39;2016-06-04 10:30:46&#39;},
-  &#39;NonFree&#39;: {&#39;hidden&#39;: &#39;&#39;, &#39;source&#39;: &#39;commons-desc-page&#39;, &#39;value&#39;: &#39;true&#39;},
-  &#39;ObjectName&#39;: {&#39;hidden&#39;: &#39;&#39;,
-   &#39;source&#39;: &#39;mediawiki-metadata&#39;,
-   &#39;value&#39;: &#39;E t the extra terrestrial ver3&#39;},
-  &#39;Restrictions&#39;: {&#39;hidden&#39;: &#39;&#39;, &#39;source&#39;: &#39;commons-desc-page&#39;, &#39;value&#39;: &#39;&#39;}},
- &#39;orig&#39;: &#39;E t the extra terrestrial ver3.jpg&#39;,
- &#39;size&#39;: 83073,
- &#39;timestamp&#39;: &#39;2016-06-04T10:30:46Z&#39;,
- &#39;title&#39;: &#39;File:E t the extra terrestrial ver3.jpg&#39;,
- &#39;url&#39;: &#39;https://upload.wikimedia.org/wikipedia/en/6/66/E_t_the_extra_terrestrial_ver3.jpg&#39;,
- &#39;width&#39;: 253}</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Access the director key of the infobox attribute, which is a JSON object.</span>
@@ -13676,26 +12968,6 @@ E.T. the Extra-Terrestrial (en) data
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[18]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;[[Steven Spielberg]]&#39;</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13750,7 +13022,7 @@ with open(folder_name + '/' + filename, 'wb') as f:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13768,7 +13040,7 @@ with open(folder_name + '/' + filename, 'wb') as f:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">title_list</span> <span class="o">=</span> <span class="p">[</span>
@@ -13882,7 +13154,7 @@ with open(folder_name + '/' + filename, 'wb') as f:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">folder_name</span> <span class="o">=</span> <span class="s1">&#39;bestofrt_posters&#39;</span>
@@ -13906,7 +13178,7 @@ with open(folder_name + '/' + filename, 'wb') as f:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># List of dictionaries to build and convert to a DataFrame later</span>
@@ -13942,174 +13214,10 @@ with open(folder_name + '/' + filename, 'wb') as f:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>API error: {&#39;code&#39;: &#39;invalidtitle&#39;, &#39;info&#39;: &#39;Bad title &#34;A_Hard_Day%27s_Night_(film)&#34;.&#39;, &#39;docref&#39;: &#39;See https://en.wikipedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &amp;lt;https://lists.wikimedia.org/mailman/listinfo/mediawiki-api-announce&amp;gt; for notice of API deprecations and breaking changes.&#39;}
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>22_A_Hard_Day%27s_Night_(film): https://en.wikipedia.org/w/api.php?action=parse&amp;formatversion=2&amp;contentmodel=text&amp;disableeditsection=&amp;disablelimitreport=&amp;disabletoc=&amp;prop=text|iwlinks|parsetree|wikitext|displaytitle|properties&amp;redirects&amp;page=A_Hard_Day%2527s_Night_%28film%29
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-53_12_Angry_Men_(1957_film): cannot identify image file &lt;_io.BytesIO object at 0x10fd974c0&gt;
-54
-55
-55_Logan_(film): &#39;image&#39;
-56
-57
-58
-59
-60
-61
-62
-63
-64
-64_Dr._Strangelove: cannot identify image file &lt;_io.BytesIO object at 0x10f8cfca8&gt;
-65
-66
-67
-68
-69
-70
-71
-72
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>API error: {&#39;code&#39;: &#39;invalidtitle&#39;, &#39;info&#39;: &#39;Bad title &#34;Rosemary%27s_Baby_(film)&#34;.&#39;, &#39;docref&#39;: &#39;See https://en.wikipedia.org/w/api.php for API usage. Subscribe to the mediawiki-api-announce mailing list at &amp;lt;https://lists.wikimedia.org/mailman/listinfo/mediawiki-api-announce&amp;gt; for notice of API deprecations and breaking changes.&#39;}
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>72_Rosemary%27s_Baby_(film): https://en.wikipedia.org/w/api.php?action=parse&amp;formatversion=2&amp;contentmodel=text&amp;disableeditsection=&amp;disablelimitreport=&amp;disabletoc=&amp;prop=text|iwlinks|parsetree|wikitext|displaytitle|properties&amp;redirects&amp;page=Rosemary%2527s_Baby_%28film%29
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">image_errors</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
@@ -14120,32 +13228,10 @@ with open(folder_name + '/' + filename, 'wb') as f:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>22_A_Hard_Day%27s_Night_(film)
-53_12_Angry_Men_(1957_film)
-55_Logan_(film)
-64_Dr._Strangelove
-72_Rosemary%27s_Baby_(film)
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Inspect unidentifiable images and download them individually</span>
@@ -14176,7 +13262,7 @@ with open(folder_name + '/' + filename, 'wb') as f:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create DataFrame from list of dictionaries</span>
@@ -14186,418 +13272,6 @@ with open(folder_name + '/' + filename, 'wb') as f:
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[25]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>ranking</th>
-      <th>title</th>
-      <th>poster_url</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>The_Wizard_of_Oz_(1939_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/commons...</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Citizen_Kane</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/c/ce...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>The_Third_Man</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/2/21...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Get_Out_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/a/a3...</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Mad_Max:_Fury_Road</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/6/6e...</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>6</td>
-      <td>The_Cabinet_of_Dr._Caligari</td>
-      <td>https://upload.wikimedia.org/wikipedia/commons...</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>7</td>
-      <td>All_About_Eve</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/2/22...</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>8</td>
-      <td>Inside_Out_(2015_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/0/0a...</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>9</td>
-      <td>The_Godfather</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/1/1c...</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>10</td>
-      <td>Metropolis_(1927_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/0/06...</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>11</td>
-      <td>E.T._the_Extra-Terrestrial</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/6/66...</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>12</td>
-      <td>Modern_Times_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/commons...</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>13</td>
-      <td>It_Happened_One_Night</td>
-      <td>https://upload.wikimedia.org/wikipedia/commons...</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>14</td>
-      <td>Singin'_in_the_Rain</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/f/f9...</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>15</td>
-      <td>Boyhood_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/a/a6...</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>16</td>
-      <td>Casablanca_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/commons...</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>17</td>
-      <td>Moonlight_(2016_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/8/84...</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>18</td>
-      <td>Psycho_(1960_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/b/b9...</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>19</td>
-      <td>Laura_(1944_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/d/d6...</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>20</td>
-      <td>Nosferatu</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/9/92...</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>21</td>
-      <td>Snow_White_and_the_Seven_Dwarfs_(1937_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/4/49...</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>22</td>
-      <td>A_Hard_Day%27s_Night_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/4/47...</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>23</td>
-      <td>La_Grande_Illusion</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/3/33...</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>24</td>
-      <td>North_by_Northwest</td>
-      <td>https://upload.wikimedia.org/wikipedia/commons...</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>The_Battle_of_Algiers</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/a/aa...</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>Dunkirk_(2017_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/1/15...</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>The_Maltese_Falcon_(1941_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/9/99...</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>Repulsion_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/8/89...</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>12_Years_a_Slave_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/5/5c...</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>Gravity_(2013_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/f/f6...</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>70</th>
-      <td>71</td>
-      <td>Rebecca_(1940_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/1/16...</td>
-    </tr>
-    <tr>
-      <th>71</th>
-      <td>72</td>
-      <td>Rosemary%27s_Baby_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/e/ef...</td>
-    </tr>
-    <tr>
-      <th>72</th>
-      <td>73</td>
-      <td>Finding_Nemo</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/2/29...</td>
-    </tr>
-    <tr>
-      <th>73</th>
-      <td>74</td>
-      <td>Brooklyn_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/5/5b...</td>
-    </tr>
-    <tr>
-      <th>74</th>
-      <td>75</td>
-      <td>The_Wrestler_(2008_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/3/3e...</td>
-    </tr>
-    <tr>
-      <th>75</th>
-      <td>76</td>
-      <td>The_39_Steps_(1935_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/9/95...</td>
-    </tr>
-    <tr>
-      <th>76</th>
-      <td>77</td>
-      <td>L.A._Confidential_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/d/d8...</td>
-    </tr>
-    <tr>
-      <th>77</th>
-      <td>78</td>
-      <td>Gone_with_the_Wind_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/commons...</td>
-    </tr>
-    <tr>
-      <th>78</th>
-      <td>79</td>
-      <td>The_Good,_the_Bad_and_the_Ugly</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/4/45...</td>
-    </tr>
-    <tr>
-      <th>79</th>
-      <td>80</td>
-      <td>Skyfall</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/a/a7...</td>
-    </tr>
-    <tr>
-      <th>80</th>
-      <td>81</td>
-      <td>Rome,_Open_City</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/1/19...</td>
-    </tr>
-    <tr>
-      <th>81</th>
-      <td>82</td>
-      <td>Tokyo_Story</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/5/5f...</td>
-    </tr>
-    <tr>
-      <th>82</th>
-      <td>83</td>
-      <td>Hell_or_High_Water_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/8/8f...</td>
-    </tr>
-    <tr>
-      <th>83</th>
-      <td>84</td>
-      <td>Pinocchio_(1940_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/b/ba...</td>
-    </tr>
-    <tr>
-      <th>84</th>
-      <td>85</td>
-      <td>The_Jungle_Book_(2016_film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/a/a4...</td>
-    </tr>
-    <tr>
-      <th>85</th>
-      <td>86</td>
-      <td>La_La_Land_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/a/ab...</td>
-    </tr>
-    <tr>
-      <th>86</th>
-      <td>87</td>
-      <td>Star_Trek_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/2/29...</td>
-    </tr>
-    <tr>
-      <th>87</th>
-      <td>88</td>
-      <td>High_Noon</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/5/54...</td>
-    </tr>
-    <tr>
-      <th>88</th>
-      <td>89</td>
-      <td>Apocalypse_Now</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/c/c2...</td>
-    </tr>
-    <tr>
-      <th>89</th>
-      <td>90</td>
-      <td>On_the_Waterfront</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/9/93...</td>
-    </tr>
-    <tr>
-      <th>90</th>
-      <td>91</td>
-      <td>The_Wages_of_Fear</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/f/f4...</td>
-    </tr>
-    <tr>
-      <th>91</th>
-      <td>92</td>
-      <td>The_Last_Picture_Show</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/8/8f...</td>
-    </tr>
-    <tr>
-      <th>92</th>
-      <td>93</td>
-      <td>Harry_Potter_and_the_Deathly_Hallows_–_Part_2</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/d/df...</td>
-    </tr>
-    <tr>
-      <th>93</th>
-      <td>94</td>
-      <td>The_Grapes_of_Wrath_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/9/9f...</td>
-    </tr>
-    <tr>
-      <th>94</th>
-      <td>95</td>
-      <td>Roman_Holiday</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/e/ec...</td>
-    </tr>
-    <tr>
-      <th>95</th>
-      <td>96</td>
-      <td>Man_on_Wire</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/5/54...</td>
-    </tr>
-    <tr>
-      <th>96</th>
-      <td>97</td>
-      <td>Jaws_(film)</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/e/eb...</td>
-    </tr>
-    <tr>
-      <th>97</th>
-      <td>98</td>
-      <td>Toy_Story</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/1/13...</td>
-    </tr>
-    <tr>
-      <th>98</th>
-      <td>99</td>
-      <td>The_Godfather_Part_II</td>
-      <td>https://upload.wikimedia.org/wikipedia/en/0/03...</td>
-    </tr>
-    <tr>
-      <th>99</th>
-      <td>100</td>
-      <td>Battleship_Potemkin</td>
-      <td>https://upload.wikimedia.org/wikipedia/commons...</td>
-    </tr>
-  </tbody>
-</table>
-<p>100 rows × 3 columns</p>
-</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14641,7 +13315,7 @@ E.T. was ranked 11th and Inside out was ranked 8th on that top 100 list. I think
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;gathered_assessed_cleaned.csv&#39;</span><span class="p">)</span>
@@ -14654,7 +13328,7 @@ E.T. was ranked 11th and Inside out was ranked 8th on that top 100 list. I think
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Your code here</span>
